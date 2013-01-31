@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="ep1" package="" version="0.0.0" company="Fathom" />
+	<app main="Main" path="Export" />
+	
+	<source path="src" />
+	<source path="Fathom" />
+	
+	<haxelib name="nme" />
+	
+	<assets path="assets" include="*" />
+
+  <window width="500" height="500" background="0xFFFFFF" fps="30" />
+    
+  <haxeflag name="-D" value="dbg" />
+  <!-- 
+       <haxeflag name="-D" value="profile" />
+  -->
+  <compilerflag name="-swf-lib TheMiner/theminer.swf" if="flash" />
+
+  <!-- Starling flags -->
+  <compilerflag name="-swf-lib starling/starling.swf" if="flash" />
+  <compilerflag name="--macro patchTypes('starling/starling.patch')" if="flash" />
+  <app swf-version="11" />
+  <haxedef name="as3_native" />
+
+</project>

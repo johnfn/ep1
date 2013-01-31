@@ -1,0 +1,12 @@
+-cp FathomHaxe/hx/
+-cp src/
+-swf-lib starling/starling.swf
+--macro "patchTypes('starling/starling.patch')"
+-swf-lib TheMiner/theminer.swf
+-swf-header 600:600:80:aeaeae
+-swf main.swf
+-swf-version 11.3
+-main Main
+-D as3_native
+-debug
+-D profile

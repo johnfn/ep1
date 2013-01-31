@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/sociodox/theminer/manager/Localization" mod="1341379694918" signatureChecksum="3501948562" >
+        <def id="com.sociodox.theminer.manager:Localization" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/GIFRequest" mod="1310574372000" signatureChecksum="450776220" >
+        <def id="com.google.analytics.core:GIFRequest" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="com.google.analytics.core:RequestObject" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.google.analytics.core:Utils" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerFlex" mod="1310413548000" signatureChecksum="3505268414" >
+        <def id="com.demonsters.debugger:MonsterDebuggerFlex" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/UISprite" mod="1310098518000" signatureChecksum="4223586237" >
+        <def id="com.google.analytics.debug:UISprite" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Margin" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.google.analytics.debug:Margin" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Label" mod="1310098518000" signatureChecksum="4235450065" >
+        <def id="com.google.analytics.debug:Label" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.google.analytics.debug:Background" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:UISprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Warning" mod="1310098518000" signatureChecksum="3957809289" >
+        <def id="com.google.analytics.debug:Warning" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Label" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/AlertAction" mod="1310098518000" signatureChecksum="3911009854" >
+        <def id="com.google.analytics.debug:AlertAction" /> 
+        <dep id="com.google.analytics.debug:Alert" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Background" mod="1310098518000" signatureChecksum="3392550658" >
+        <def id="com.google.analytics.debug:Background" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/memoryRecorder/MemoryRecorder" mod="1341182293329" signatureChecksum="1780291931" >
+        <def id="com.junkbyte.console.addons.memoryRecorder:MemoryRecorder" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.sampler:clearSamples" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.sampler:NewObjectSample" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.sampler:getSamples" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.sampler:NewObjectSample" type="s" /> 
+        <dep id="flash.sampler:Sample" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/ILayout" mod="1310098518000" signatureChecksum="3663853999" >
+        <def id="com.google.analytics.debug:ILayout" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Layout" mod="1310098518000" signatureChecksum="3875350909" >
+        <def id="com.google.analytics.debug:Layout" /> 
+        <dep id="com.google.analytics.debug:FailureAlert" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.google.analytics.debug:Panel" type="e" /> 
+        <dep id="com.google.analytics:GATracker" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.google.analytics.debug:Debug" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="com.google.analytics.debug:Info" type="e" /> 
+        <dep id="com.google.analytics.debug:Warning" type="e" /> 
+        <dep id="com.google.analytics.debug:Alert" type="e" /> 
+        <dep id="com.google.analytics.debug:AlertAction" type="e" /> 
+        <dep id="com.google.analytics.debug:GIFRequestAlert" type="e" /> 
+        <dep id="com.google.analytics.debug:SuccessAlert" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.debug:Panel" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.google.analytics.debug:Debug" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="com.google.analytics.debug:Info" type="s" /> 
+        <dep id="com.google.analytics.debug:Warning" type="s" /> 
+        <dep id="com.google.analytics.debug:Alert" type="s" /> 
+        <dep id="com.google.analytics.debug:AlertAction" type="s" /> 
+        <dep id="com.google.analytics.debug:GIFRequestAlert" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:ILayout" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/v4/GoogleAnalyticsAPI" mod="1310098520000" signatureChecksum="2313473137" >
+        <def id="com.google.analytics.v4:GoogleAnalyticsAPI" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/AnalyticsTracker" mod="1310098520000" signatureChecksum="617603454" >
+        <def id="com.google.analytics:AnalyticsTracker" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/components/FlashTracker" mod="1341166778630" signatureChecksum="775846182" >
+        <def id="com.google.analytics.components:FlashTracker" /> 
+        <dep id="com.google.analytics.debug:Layout" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="e" /> 
+        <dep id="com.google.analytics.v4:Bridge" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="e" /> 
+        <dep id="com.google.analytics:API" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerMode" type="e" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.google.analytics.v4:Tracker" type="e" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="e" /> 
+        <dep id="com.google.analytics.core:Buffer" type="e" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="e" /> 
+        <dep id="com.google.analytics.utils:Environment" type="e" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="com.google.analytics.events:AnalyticsEvent" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="s" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.core:IdleTimer" type="s" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="s" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="com.google.analytics.core:ga_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics:AnalyticsTracker" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/ConsoleCore" mod="1339957674888" signatureChecksum="922452367" >
+        <def id="com.junkbyte.console.core:ConsoleCore" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="com.junkbyte.console.core:Remoting" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/CommandLine" mod="1340636295451" signatureChecksum="3402904552" >
+        <def id="com.junkbyte.console.core:CommandLine" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.junkbyte.console.core:Executer" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakObject" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console.core:Executer" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.junkbyte.console.vos:WeakObject" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/DocumentInfo" mod="1330047310152" signatureChecksum="3787565376" >
+        <def id="com.google.analytics.core:DocumentInfo" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/Logs" mod="1339957674845" signatureChecksum="1796329298" >
+        <def id="com.junkbyte.console.core:Logs" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleChannel" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/IDisposable" mod="1331006298719" signatureChecksum="1330782961" >
+        <def id="com.sociodox.theminer.manager:IDisposable" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/BrowserInfo" mod="1310098520000" signatureChecksum="2491131942" >
+        <def id="com.google.analytics.core:BrowserInfo" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/Executer" mod="1339957674864" signatureChecksum="2708513746" >
+        <def id="com.junkbyte.console.core:Executer" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakObject" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="by/blooddy/crypto/image/JPEGEncoder" mod="0" >
+        <def id="by.blooddy.crypto.image:JPEGEncoder" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="by.blooddy.crypto.image:JPEGTable" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="Number" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.utils:ByteArray" type="i" /> 
+        <dep id="flash.system:ApplicationDomain" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Debug" mod="1310098518000" signatureChecksum="1460306424" >
+        <def id="com.google.analytics.debug:Debug" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="com.google.analytics.debug:UISprite" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Label" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/TrackerMode" mod="1310098520000" signatureChecksum="1422929108" >
+        <def id="com.google.analytics.core:TrackerMode" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerUtils" mod="1309286634000" signatureChecksum="3766379966" >
+        <def id="com.demonsters.debugger:MonsterDebuggerUtils" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerDescribeType" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConstants" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="TypeError" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/CcCallbackDispatcher" mod="1339957674881" signatureChecksum="2842246966" >
+        <def id="com.junkbyte.console.core:CcCallbackDispatcher" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Alert" mod="1310098518000" signatureChecksum="1900256101" >
+        <def id="com.google.analytics.debug:Alert" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="com.google.analytics.debug:AlertAction" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Label" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/SuccessAlert" mod="1310098518000" signatureChecksum="933703726" >
+        <def id="com.google.analytics.debug:SuccessAlert" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Alert" type="i" /> 
+      </script>
+      <script name="com/google/analytics/v4/Bridge" mod="1310098520000" signatureChecksum="94639164" >
+        <def id="com.google.analytics.v4:Bridge" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="com.google.analytics.core:Utils" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/GATracker" mod="1324432612207" signatureChecksum="691865301" >
+        <def id="com.google.analytics:GATracker" /> 
+        <dep id="com.google.analytics.debug:Layout" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="e" /> 
+        <dep id="com.google.analytics.v4:Bridge" type="e" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="e" /> 
+        <dep id="com.google.analytics:API" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerMode" type="e" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="e" /> 
+        <dep id="com.google.analytics.v4:Tracker" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="e" /> 
+        <dep id="com.google.analytics.core:Buffer" type="e" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="e" /> 
+        <dep id="com.google.analytics.utils:Environment" type="e" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="e" /> 
+        <dep id="com.google.analytics.events:AnalyticsEvent" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="s" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.core:IdleTimer" type="s" /> 
+        <dep id="flash.events:EventDispatcher" type="s" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="s" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="com.google.analytics.core:ga_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics:AnalyticsTracker" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/ui/mobile/MobileButton" mod="1341154740085" signatureChecksum="1798593141" >
+        <def id="com.sociodox.theminer.ui.mobile:MobileButton" /> 
+        <dep id="flash.display:GradientType" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.events:TouchEvent" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/Console" mod="1340636223876" signatureChecksum="2321522223" >
+        <def id="com.junkbyte.console:Console" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleChannel" type="e" /> 
+        <dep id="flash.net:SharedObject" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="com.junkbyte.console.core:KeyBinder" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleLevel" type="e" /> 
+        <dep id="com.junkbyte.console.core:CommandLine" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:Graphing" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="com.junkbyte.console.core:ConsoleTools" type="e" /> 
+        <dep id="com.junkbyte.console.view:RollerPanel" type="e" /> 
+        <dep id="com.junkbyte.console.core:Logs" type="e" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="e" /> 
+        <dep id="com.junkbyte.console.view:PanelsManager" type="e" /> 
+        <dep id="com.junkbyte.console.core:Remoting" type="e" /> 
+        <dep id="com.junkbyte.console.core:MemoryMonitor" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="e" /> 
+        <dep id="flash.events:ErrorEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.net:SharedObject" type="s" /> 
+        <dep id="com.junkbyte.console.core:KeyBinder" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="com.junkbyte.console.core:CommandLine" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.junkbyte.console.core:Graphing" type="s" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="s" /> 
+        <dep id="com.junkbyte.console.core:ConsoleTools" type="s" /> 
+        <dep id="com.junkbyte.console.core:Logs" type="s" /> 
+        <dep id="com.junkbyte.console.view:PanelsManager" type="s" /> 
+        <dep id="com.junkbyte.console.core:Remoting" type="s" /> 
+        <dep id="com.junkbyte.console.core:MemoryMonitor" type="s" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/ConsoleRe" mod="1339957675214" signatureChecksum="3913857043" >
+        <def id="com.junkbyte.console.remote:ConsoleRe" /> 
+        <dep id="com.junkbyte.console.core:ConsoleTools" type="e" /> 
+        <dep id="com.junkbyte.console.remote:MemoryMonitorRemote" type="e" /> 
+        <dep id="com.junkbyte.console.remote:LogReferencesRemote" type="e" /> 
+        <dep id="com.junkbyte.console.remote:GraphingRemote" type="e" /> 
+        <dep id="com.junkbyte.console.remote:LogsRemote" type="e" /> 
+        <dep id="com.junkbyte.console.core:KeyBinder" type="e" /> 
+        <dep id="com.junkbyte.console.remote:RemotingRemote" type="e" /> 
+        <dep id="com.junkbyte.console.remote:CommandLineRemote" type="e" /> 
+        <dep id="com.junkbyte.console.remote:PanelsManagerRemote" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:Console" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/X10" mod="1310098520000" signatureChecksum="3548288320" >
+        <def id="com.google.analytics.data:X10" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/Cc" mod="1340636126689" signatureChecksum="2650746741" >
+        <def id="com.junkbyte.console:Cc" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleLevel" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/IMonsterDebuggerConnection" mod="1309286634000" signatureChecksum="3809371217" >
+        <def id="com.demonsters.debugger:IMonsterDebuggerConnection" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerConnectionDefault" mod="1309286634000" signatureChecksum="1617087844" >
+        <def id="com.demonsters.debugger:MonsterDebuggerConnectionDefault" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:Socket" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerUtils" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerCore" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:Socket" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.demonsters.debugger:IMonsterDebuggerConnection" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/ga_internal" mod="1310098520000" signatureChecksum="1829771598" >
+        <def id="com.google.analytics.core:ga_internal" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Options" mod="1341188173777" signatureChecksum="2589923727" >
+        <def id="com.sociodox.theminer.manager:Options" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.event:ChangeToolEvent" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="com.sociodox.theminer:TheMinerActionEnum" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="com.sociodox.theminer.event:ChangeToolEvent" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/TheMiner" mod="1341378556623" signatureChecksum="2684803171" >
+        <def id="com.sociodox.theminer:TheMiner" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:OptionInterface" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="flash.sampler:setSamplerCallback" type="e" /> 
+        <dep id="com.sociodox.theminer.window:UserEvent" type="e" /> 
+        <dep id="flash.display:LoaderInfo" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="flash.trace:Trace" type="e" /> 
+        <dep id="com.sociodox.theminer.window:PerformanceProfiler" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Overdraw" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Options" type="e" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="e" /> 
+        <dep id="flash.sampler:clearSamples" type="e" /> 
+        <dep id="com.sociodox.theminer.window:LoaderProfiler" type="e" /> 
+        <dep id="com.sociodox.theminer:TheMinerActionEnum" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Launcher" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.ui:Mouse" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.sociodox.theminer.window:FlashStats" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.sociodox.theminer.data:SWFEntry" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:UserEventManager" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.window:ConsoleContainer" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:LoaderAnalyser" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.net:LocalConnection" type="e" /> 
+        <dep id="flash.net:SharedObject" type="e" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.sociodox.theminer.window:InstancesLifeCycle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.sociodox.theminer.window:MouseListeners" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:InternalEventsProfiler" type="e" /> 
+        <dep id="flash.sampler:stopSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.window:SamplerProfiler" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.sociodox.theminer.data:SWFEntry" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="com.sociodox.theminer.event:ChangeToolEvent" type="s" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.events:ContextMenuEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="com.sociodox.theminer.manager:UserEventManager" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/PreloadSWFLauncher" mod="1341154844071" signatureChecksum="3564205365" >
+        <def id="com.sociodox.theminer:PreloadSWFLauncher" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer:TheMiner" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/Cookie" mod="1310098520000" signatureChecksum="3339808236" >
+        <def id="com.google.analytics.data:Cookie" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/Domain" mod="1310098520000" signatureChecksum="2391701262" >
+        <def id="com.google.analytics.core:Domain" /> 
+        <dep id="com.google.analytics.core:DomainNameMode" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:DomainNameMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/ConsoleTools" mod="1339957674838" signatureChecksum="2439292519" >
+        <def id="com.junkbyte.console.core:ConsoleTools" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerConstants" mod="1309286634000" signatureChecksum="560100324" >
+        <def id="com.demonsters.debugger:MonsterDebuggerConstants" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/FunctionCall" mod="1341154699384" signatureChecksum="475091526" >
+        <def id="com.sociodox.theminer.data:FunctionCall" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/IWindow" mod="1341154804953" signatureChecksum="2675858295" >
+        <def id="com.sociodox.theminer.window:IWindow" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/FlashStats" mod="1341183333304" signatureChecksum="2601183325" >
+        <def id="com.sociodox.theminer.window:FlashStats" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.data:FrameStatistics" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.data:FrameStatistics" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Bitmap" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/Utils" mod="1310098520000" signatureChecksum="1667650427" >
+        <def id="com.google.analytics.core:Utils" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="by/blooddy/crypto/image/JPEGTableHelper" mod="0" >
+        <def id="by.blooddy.crypto.image:JPEGTableHelper" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Number" type="s" /> 
+        <dep id="Array" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.utils:ByteArray" type="i" /> 
+        <dep id="flash.system:ApplicationDomain" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerPlugin" mod="1309286634000" signatureChecksum="1799899389" >
+        <def id="com.demonsters.debugger:MonsterDebuggerPlugin" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/event/ChangeToolEvent" mod="1331006315666" signatureChecksum="196101297" >
+        <def id="com.sociodox.theminer.event:ChangeToolEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/GraphGroup" mod="1339957674306" signatureChecksum="2592973460" >
+        <def id="com.junkbyte.console.vos:GraphGroup" /> 
+        <dep id="com.junkbyte.console.core:CcCallbackDispatcher" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.junkbyte.console.core:CcCallbackDispatcher" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/GraphMemoryGroup" mod="1339957674359" signatureChecksum="1858700419" >
+        <def id="com.junkbyte.console.vos:GraphMemoryGroup" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/GraphFPSGroup" mod="1339957674365" signatureChecksum="3015403952" >
+        <def id="com.junkbyte.console.vos:GraphFPSGroup" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/autoFocus/CommandLineAutoFocusAddon" mod="1339957674625" signatureChecksum="2086237788" >
+        <def id="com.junkbyte.console.addons.autoFocus:CommandLineAutoFocusAddon" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="e" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/EventTracker" mod="1310098520000" signatureChecksum="1928549622" >
+        <def id="com.google.analytics.core:EventTracker" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/MouseListeners" mod="1341154814261" signatureChecksum="942745501" >
+        <def id="com.sociodox.theminer.window:MouseListeners" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="flash.display:InteractiveObject" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:InteractiveObject" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/SamplerProfiler" mod="1341197071499" signatureChecksum="1103305217" >
+        <def id="com.sociodox.theminer.window:SamplerProfiler" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="com.sociodox.theminer.data:ClassTypeStatsHolder" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/campaign/CampaignManager" mod="1310098518000" signatureChecksum="2094171452" >
+        <def id="com.google.analytics.campaign:CampaignManager" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.utils:URL" type="e" /> 
+        <dep id="com.google.analytics.campaign:CampaignInfo" type="e" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="com.google.analytics.campaign:CampaignTracker" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignKey" type="s" /> 
+        <dep id="com.google.analytics.utils:URL" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignInfo" type="s" /> 
+        <dep id="com.google.analytics.core:OrganicReferrer" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignTracker" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/FailureAlert" mod="1310098518000" signatureChecksum="805253132" >
+        <def id="com.google.analytics.debug:FailureAlert" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Alert" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Stage2D" mod="1341154616259" signatureChecksum="1692869246" >
+        <def id="com.sociodox.theminer.manager:Stage2D" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/google/analytics/debug/GIFRequestAlert" mod="1310098518000" signatureChecksum="2629642863" >
+        <def id="com.google.analytics.debug:GIFRequestAlert" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Alert" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/UserEventEntry" mod="1341154673174" signatureChecksum="2617817857" >
+        <def id="com.sociodox.theminer.data:UserEventEntry" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="by/blooddy/crypto/image/JPEGTable" mod="1290962010922" signatureChecksum="3070642270" >
+        <def id="by.blooddy.crypto.image:JPEGTable" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="by.blooddy.crypto.image:JPEGTableHelper" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/LoaderProfiler" mod="1341197175104" signatureChecksum="2946736735" >
+        <def id="com.sociodox.theminer.window:LoaderProfiler" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:LoaderAnalyser" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.data:LoaderData" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.sociodox.theminer.data:LoaderData" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/campaign/CampaignInfo" mod="1310098518000" signatureChecksum="2030005298" >
+        <def id="com.google.analytics.campaign:CampaignInfo" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/API" mod="1310098520000" signatureChecksum="254356910" >
+        <def id="com.google.analytics:API" /> 
+        <dep id="com.google.analytics.utils:Version" type="e" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/Graphing" mod="1339957674814" signatureChecksum="1292295584" >
+        <def id="com.junkbyte.console.core:Graphing" /> 
+        <dep id="com.junkbyte.console.core:CcCallbackDispatcher" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphMemoryGroup" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphFPSGroup" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:CcCallbackDispatcher" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/GraphingRemote" mod="1339957675227" signatureChecksum="817698185" >
+        <def id="com.junkbyte.console.remote:GraphingRemote" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="com.junkbyte.console.core:Graphing" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/IdleTimer" mod="1324432546849" signatureChecksum="387756847" >
+        <def id="com.google.analytics.core:IdleTimer" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/EventInfo" mod="1310098520000" signatureChecksum="3684262086" >
+        <def id="com.google.analytics.core:EventInfo" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.data:X10" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/LoaderAnalyser" mod="1341182293354" signatureChecksum="4135596318" >
+        <def id="com.sociodox.theminer.manager:LoaderAnalyser" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.sociodox.theminer.data:SWFEntry" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:LoaderInfo" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="e" /> 
+        <dep id="com.sociodox.theminer.data:LoaderData" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="com.sociodox.theminer.data:SWFEntry" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="s" /> 
+        <dep id="com.sociodox.theminer.data:LoaderData" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/ConsoleLevel" mod="1339957675262" signatureChecksum="334843666" >
+        <def id="com.junkbyte.console:ConsoleLevel" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/WeakObject" mod="1339957674299" signatureChecksum="3245525311" >
+        <def id="com.junkbyte.console.vos:WeakObject" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.utils:Proxy" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/Remoting" mod="1340651782796" signatureChecksum="2434873584" >
+        <def id="com.junkbyte.console.core:Remoting" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:LocalConnection" type="e" /> 
+        <dep id="flash.events:AsyncErrorEvent" type="e" /> 
+        <dep id="flash.net:Socket" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleLevel" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:LocalConnection" type="s" /> 
+        <dep id="flash.events:AsyncErrorEvent" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.net:Socket" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/RemotingRemote" mod="1339957675158" signatureChecksum="425842857" >
+        <def id="com.junkbyte.console.remote:RemotingRemote" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:AsyncErrorEvent" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:Remoting" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/InternalEventsProfiler" mod="1341179932726" signatureChecksum="3962138815" >
+        <def id="com.sociodox.theminer.window:InternalEventsProfiler" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventsStatsHolder" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/GraphInterest" mod="1339957674312" signatureChecksum="2573970018" >
+        <def id="com.junkbyte.console.vos:GraphInterest" /> 
+        <dep id="com.junkbyte.console.core:Executer" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.junkbyte.console.vos:WeakRef" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/PanelsManager" mod="1339957674973" signatureChecksum="2723828748" >
+        <def id="com.junkbyte.console.view:PanelsManager" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="com.junkbyte.console.view:RollerPanel" type="e" /> 
+        <dep id="com.junkbyte.console.view:GraphingPanel" type="e" /> 
+        <dep id="com.junkbyte.console.view:ChannelsPanel" type="e" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console.view:RollerPanel" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="com.junkbyte.console.view:GraphingPanel" type="s" /> 
+        <dep id="com.junkbyte.console.view:ChannelsPanel" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console:console_internal" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/PanelsManagerRemote" mod="1339957675221" signatureChecksum="3144968644" >
+        <def id="com.junkbyte.console.remote:PanelsManagerRemote" /> 
+        <dep id="com.junkbyte.console.remote:MainPanelRemote" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:PanelsManager" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/htmlexport/ConsoleHTMLRefsGen" mod="1339957674558" signatureChecksum="755591477" >
+        <def id="com.junkbyte.console.addons.htmlexport:ConsoleHTMLRefsGen" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/displaymap/DisplayMapAddon" mod="1339957674507" signatureChecksum="1171886512" >
+        <def id="com.junkbyte.console.addons.displaymap:DisplayMapAddon" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="com.junkbyte.console.addons.displaymap:DisplayMapPanel" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.junkbyte.console.addons.displaymap:DisplayMapPanel" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/ecommerce/Item" mod="1310098518000" signatureChecksum="3585322387" >
+        <def id="com.google.analytics.ecommerce:Item" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/ConsolePanel" mod="1339957674998" signatureChecksum="408452175" >
+        <def id="com.junkbyte.console.view:ConsolePanel" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/MainPanel" mod="1340636844764" signatureChecksum="1124676311" >
+        <def id="com.junkbyte.console.view:MainPanel" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.system:SecurityPanel" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleChannel" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/DomainNameMode" mod="1310098520000" signatureChecksum="3015008261" >
+        <def id="com.google.analytics.core:DomainNameMode" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/VisualDebugMode" mod="1310098518000" signatureChecksum="1536582589" >
+        <def id="com.google.analytics.debug:VisualDebugMode" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/KeyBind" mod="1339957674454" signatureChecksum="3305323346" >
+        <def id="com.junkbyte.console:KeyBind" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/TrackerCache" mod="1310098520000" signatureChecksum="1668021551" >
+        <def id="com.google.analytics.core:TrackerCache" /> 
+        <dep id="flash.errors:IllegalOperationError" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Commands" mod="1331006305198" signatureChecksum="201399936" >
+        <def id="com.sociodox.theminer.manager:Commands" /> 
+        <dep id="com.sociodox.theminer.manager:Controller" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Controller" type="s" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/google/analytics/core/Organic" mod="1310098520000" signatureChecksum="3319404578" >
+        <def id="com.google.analytics.core:Organic" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.core:OrganicReferrer" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.core:OrganicReferrer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/UserProgressEvent" mod="1341154669586" signatureChecksum="3470732280" >
+        <def id="com.sociodox.theminer.data:UserProgressEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/Ruler" mod="1341163771965" signatureChecksum="3082409197" >
+        <def id="com.junkbyte.console.view:Ruler" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="skin_default" mod="1340243130946" >
+        <def id="skin_default" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:BitmapData" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/console_internal" mod="1339957674274" signatureChecksum="1940068796" >
+        <def id="com.junkbyte.console:console_internal" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/junkbyte/console/view/ChannelsPanel" mod="1339957675024" signatureChecksum="928540739" >
+        <def id="com.junkbyte.console.view:ChannelsPanel" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/ui/button/MenuButton" mod="1341184120699" signatureChecksum="3472391616" >
+        <def id="com.sociodox.theminer.ui.button:MenuButton" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.sociodox.theminer.event:ChangeToolEvent" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:OptionInterface" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.window:LoaderProfiler" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="com.sociodox.theminer:TheMinerActionEnum" type="e" /> 
+        <dep id="com.sociodox.theminer.window:PerformanceProfiler" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.sociodox.theminer:TheMiner" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="com.sociodox.theminer.data:LoaderData" type="s" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/SampleAnalyzer" mod="1341154642897" signatureChecksum="3881903097" >
+        <def id="com.sociodox.theminer.manager:SampleAnalyzer" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzerImpl" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzerImpl" type="s" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/google/analytics/core/OrganicReferrer" mod="1310098520000" signatureChecksum="493573714" >
+        <def id="com.google.analytics.core:OrganicReferrer" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/memoryRecorder/MemoryRecorderAddon" mod="1339957674686" signatureChecksum="3803729485" >
+        <def id="com.junkbyte.console.addons.memoryRecorder:MemoryRecorderAddon" /> 
+        <dep id="com.junkbyte.console.addons.memoryRecorder:MemoryRecorder" type="e" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/GPUCallProfiler" mod="1341182293287" signatureChecksum="2299663150" >
+        <def id="com.sociodox.theminer.window:GPUCallProfiler" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/WeakRef" mod="1339957674352" signatureChecksum="2128691711" >
+        <def id="com.junkbyte.console.vos:WeakRef" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/vos/Log" mod="1339957674318" signatureChecksum="2192488100" >
+        <def id="com.junkbyte.console.vos:Log" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/ConsoleChannel" mod="1339957675268" signatureChecksum="423621681" >
+        <def id="com.junkbyte.console:ConsoleChannel" /> 
+        <dep id="com.junkbyte.console:Console" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMCookie" mod="1310098520000" signatureChecksum="1960501765" >
+        <def id="com.google.analytics.data:UTMCookie" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:Cookie" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMZ" mod="1310098520000" signatureChecksum="3352413804" >
+        <def id="com.google.analytics.data:UTMZ" /> 
+        <dep id="com.google.analytics.utils:Timespan" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMV" mod="1310098520000" signatureChecksum="4166342833" >
+        <def id="com.google.analytics.data:UTMV" /> 
+        <dep id="com.google.analytics.utils:Timespan" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMX" mod="1310098520000" signatureChecksum="2228763931" >
+        <def id="com.google.analytics.data:UTMX" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/ruler/RulerAddon" mod="1339957674652" signatureChecksum="2386431507" >
+        <def id="com.junkbyte.console.addons.ruler:RulerAddon" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.ui:Mouse" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Launcher" mod="1341182293347" signatureChecksum="2031658079" >
+        <def id="com.sociodox.theminer.manager:Launcher" /> 
+        <dep id="flash.display:StageScaleMode" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.sociodox.theminer:TheMiner" type="e" /> 
+        <dep id="flash.system:SecurityDomain" type="e" /> 
+        <dep id="flash.sampler:getSamples" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.display:StageAlign" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.sociodox.theminer:TheMiner" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/ConsoleStyle" mod="1339957674293" signatureChecksum="2704255659" >
+        <def id="com.junkbyte.console:ConsoleStyle" /> 
+        <dep id="flash.text:StyleSheet" type="e" /> 
+        <dep id="flash.text:StyleSheet" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerSampler" mod="1341182293321" signatureChecksum="841062537" >
+        <def id="com.demonsters.debugger:MonsterDebuggerSampler" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConnection" type="e" /> 
+        <dep id="flash.sampler:getSampleCount" type="e" /> 
+        <dep id="flash.sampler:DeleteObjectSample" type="e" /> 
+        <dep id="flash.sampler:clearSamples" type="e" /> 
+        <dep id="flash.sampler:StackFrame" type="e" /> 
+        <dep id="flash.sampler:getSamples" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.sampler:Sample" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/SWFEntry" mod="1341182027631" signatureChecksum="219239243" >
+        <def id="com.sociodox.theminer.data:SWFEntry" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/htmlexport/ConsoleHtmlExportAddon" mod="1341162389213" signatureChecksum="884961727" >
+        <def id="com.junkbyte.console.addons.htmlexport:ConsoleHtmlExportAddon" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="com.junkbyte.console.addons.htmlexport:ConsoleHTMLRefsGen" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="s" /> 
+        <dep id="com.junkbyte.console.addons.htmlexport:ConsoleHTMLRefsGen" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleConfig" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/RequestObject" mod="1310098520000" signatureChecksum="2418175515" >
+        <def id="com.google.analytics.core:RequestObject" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Margin" mod="1310098518000" signatureChecksum="1598438907" >
+        <def id="com.google.analytics.debug:Margin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/ClassTypeStatsHolder" mod="1341154708624" signatureChecksum="3662778453" >
+        <def id="com.sociodox.theminer.data:ClassTypeStatsHolder" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMA" mod="1310098520000" signatureChecksum="582925895" >
+        <def id="com.google.analytics.data:UTMA" /> 
+        <dep id="com.google.analytics.utils:Timespan" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/Buffer" mod="1324431644066" signatureChecksum="2262215993" >
+        <def id="com.google.analytics.core:Buffer" /> 
+        <dep id="flash.net:SharedObjectFlushStatus" type="e" /> 
+        <dep id="flash.net:SharedObject" type="e" /> 
+        <dep id="com.google.analytics.data:UTMZ" type="e" /> 
+        <dep id="com.google.analytics.core:Utils" type="e" /> 
+        <dep id="com.google.analytics.data:UTMV" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.data:UTMX" type="e" /> 
+        <dep id="com.google.analytics.data:UTMA" type="e" /> 
+        <dep id="com.google.analytics.data:UTMC" type="e" /> 
+        <dep id="com.google.analytics.data:UTMB" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="com.google.analytics.data:UTMK" type="e" /> 
+        <dep id="flash.events:NetStatusEvent" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.data:UTMA" type="s" /> 
+        <dep id="flash.net:SharedObject" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.data:UTMC" type="s" /> 
+        <dep id="com.google.analytics.data:UTMB" type="s" /> 
+        <dep id="com.google.analytics.data:UTMZ" type="s" /> 
+        <dep id="com.google.analytics.data:UTMV" type="s" /> 
+        <dep id="com.google.analytics.data:UTMX" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.google.analytics.data:UTMK" type="s" /> 
+        <dep id="flash.events:NetStatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMC" mod="1310098520000" signatureChecksum="2331653548" >
+        <def id="com.google.analytics.data:UTMC" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMB" mod="1310098520000" signatureChecksum="2567870148" >
+        <def id="com.google.analytics.data:UTMB" /> 
+        <dep id="com.google.analytics.utils:Timespan" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/google/analytics/events/AnalyticsEvent" mod="1310098518000" signatureChecksum="663973383" >
+        <def id="com.google.analytics.events:AnalyticsEvent" /> 
+        <dep id="com.google.analytics:AnalyticsTracker" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/google/analytics/campaign/CampaignTracker" mod="1310575446000" signatureChecksum="1369940334" >
+        <def id="com.google.analytics.campaign:CampaignTracker" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.campaign:CampaignManager" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/UTMK" mod="1310098520000" signatureChecksum="412758284" >
+        <def id="com.google.analytics.data:UTMK" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.data:UTMCookie" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/SampleAnalyzerImpl" mod="1341196792825" signatureChecksum="970235700" >
+        <def id="com.sociodox.theminer.manager:SampleAnalyzerImpl" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventsStatsHolder" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="flash.sampler:setSamplerCallback" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="com.sociodox.theminer.data:ClassTypeStatsHolder" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.sampler:DeleteObjectSample" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:LoaderAnalyser" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="e" /> 
+        <dep id="flash.net:LocalConnection" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flash.sampler:clearSamples" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.sampler:NewObjectSample" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.sociodox.theminer.data:FunctionCall" type="e" /> 
+        <dep id="flash.sampler:getSamples" type="e" /> 
+        <dep id="flash.sampler:stopSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="com.sociodox.theminer.manager:LoaderAnalyser" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventsStatsHolder" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.sampler:Sample" type="s" /> 
+        <dep id="flash.sampler:StackFrame" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.sociodox.theminer.data:ClassTypeStatsHolder" type="s" /> 
+        <dep id="flash.sampler:NewObjectSample" type="s" /> 
+        <dep id="com.sociodox.theminer:TheMiner" type="s" /> 
+        <dep id="com.sociodox.theminer.data:FunctionCall" type="s" /> 
+        <dep id="flash.sampler:DeleteObjectSample" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/MainPanelRemote" mod="1339957675164" signatureChecksum="754931" >
+        <def id="com.junkbyte.console.remote:MainPanelRemote" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/Protocols" mod="1310098518000" signatureChecksum="506225317" >
+        <def id="com.google.analytics.utils:Protocols" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/external/JavascriptProxy" mod="1310098518000" signatureChecksum="445177943" >
+        <def id="com.google.analytics.external:JavascriptProxy" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerConnectionMobile" mod="1309286634000" signatureChecksum="1716494500" >
+        <def id="com.demonsters.debugger:MonsterDebuggerConnectionMobile" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerUtils" type="e" /> 
+        <dep id="flash.net:NetGroup" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerCore" type="e" /> 
+        <dep id="flash.net:GroupSpecifier" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="e" /> 
+        <dep id="flash.net:NetConnection" type="e" /> 
+        <dep id="flash.events:NetStatusEvent" type="e" /> 
+        <dep id="flash.net:NetGroup" type="s" /> 
+        <dep id="flash.net:GroupSpecifier" type="s" /> 
+        <dep id="flash.net:NetConnection" type="s" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="s" /> 
+        <dep id="flash.events:NetStatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.demonsters.debugger:IMonsterDebuggerConnection" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/components/FlexTracker" mod="1341166785356" signatureChecksum="407883168" >
+        <def id="com.google.analytics.components:FlexTracker" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="e" /> 
+        <dep id="com.google.analytics.v4:Bridge" type="e" /> 
+        <dep id="com.google.analytics.debug:Layout" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="e" /> 
+        <dep id="com.google.analytics:API" type="e" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="e" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="e" /> 
+        <dep id="com.google.analytics.v4:Tracker" type="e" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="e" /> 
+        <dep id="com.google.analytics.core:Buffer" type="e" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="e" /> 
+        <dep id="com.google.analytics.utils:Environment" type="e" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="com.google.analytics.events:AnalyticsEvent" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="com.google.analytics.core:TrackerCache" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="s" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.core:IdleTimer" type="s" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="s" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="com.google.analytics.core:ga_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="com.google.analytics:AnalyticsTracker" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/MemoryMonitor" mod="1339957674820" signatureChecksum="127960488" >
+        <def id="com.junkbyte.console.core:MemoryMonitor" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/MemoryMonitorRemote" mod="1339957675234" signatureChecksum="3133035682" >
+        <def id="com.junkbyte.console.remote:MemoryMonitorRemote" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:MemoryMonitor" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/LogReferences" mod="1339957674831" signatureChecksum="3818541766" >
+        <def id="com.junkbyte.console.core:LogReferences" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="QName" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.junkbyte.console.vos:WeakObject" type="e" /> 
+        <dep id="XMLList" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="com.junkbyte.console.vos:WeakObject" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Controller" mod="1341188484784" signatureChecksum="2527031496" >
+        <def id="com.sociodox.theminer.manager:Controller" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.net:navigateToURL" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.trace:Trace" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.sociodox.theminer.data:FunctionCall" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="by.blooddy.crypto.image:JPEGEncoder" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.sociodox.theminer.data:ClassTypeStatsHolder" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/Variables" mod="1310098518000" signatureChecksum="4185028862" >
+        <def id="com.google.analytics.utils:Variables" /> 
+        <dep id="flash.net:URLVariables" type="e" /> 
+        <dep id="flash.net:URLVariables" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/FunctionEntry" mod="1341154690808" signatureChecksum="2623815898" >
+        <def id="com.sociodox.theminer.data:FunctionEntry" /> 
+        <dep id="QName" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/UserAgent" mod="1310098518000" signatureChecksum="3248409725" >
+        <def id="com.google.analytics.utils:UserAgent" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.google.analytics.core:Utils" type="e" /> 
+        <dep id="com.google.analytics.utils:Version" type="e" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerDescribeType" mod="1309286634000" signatureChecksum="3786948534" >
+        <def id="com.demonsters.debugger:MonsterDebuggerDescribeType" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/SkinManager" mod="1340665275269" signatureChecksum="2036541400" >
+        <def id="com.sociodox.theminer.manager:SkinManager" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:OptionInterface" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="skin_default" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="skin_default" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Info" mod="1310098518000" signatureChecksum="2457624053" >
+        <def id="com.google.analytics.debug:Info" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:Label" type="i" /> 
+      </script>
+      <script name="com/google/analytics/components/GATrackerLibrary" mod="1341166787313" signatureChecksum="1535923950" >
+        <def id="com.google.analytics.components:GATrackerLibrary" /> 
+        <dep id="com.google.analytics:API" type="e" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/ui/ToolTip" mod="1341154734935" signatureChecksum="4196516240" >
+        <def id="com.sociodox.theminer.ui:ToolTip" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/commandprompt/CommandPrompt" mod="1339957674461" signatureChecksum="4079609331" >
+        <def id="com.junkbyte.console.addons.commandprompt:CommandPrompt" /> 
+        <dep id="com.junkbyte.console:ConsoleChannel" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="com.junkbyte.console.addons.commandprompt:CommandChoice" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerCore" mod="1309286634000" signatureChecksum="80580661" >
+        <def id="com.demonsters.debugger:MonsterDebuggerCore" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConnection" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerDescribeType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerUtils" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerPlugin" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebugger" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConstants" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.external:ExternalInterface" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerData" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerPlugin" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/UserEventManager" mod="1341154630613" signatureChecksum="205752732" >
+        <def id="com.sociodox.theminer.manager:UserEventManager" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/_Style" mod="1310098518000" signatureChecksum="106201419" >
+        <def id="com.google.analytics.debug:_Style" /> 
+        <dep id="flash.text:StyleSheet" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.text:StyleSheet" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/LogReferencesRemote" mod="1339957675152" signatureChecksum="4191645486" >
+        <def id="com.junkbyte.console.remote:LogReferencesRemote" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/FrameStatistics" mod="1341154704535" signatureChecksum="3169810169" >
+        <def id="com.sociodox.theminer.data:FrameStatistics" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/LoaderData" mod="1340664468816" signatureChecksum="1238984494" >
+        <def id="com.sociodox.theminer.data:LoaderData" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/external/HTMLDOM" mod="1310098518000" signatureChecksum="4185173812" >
+        <def id="com.google.analytics.external:HTMLDOM" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/Timespan" mod="1310098518000" signatureChecksum="162676643" >
+        <def id="com.google.analytics.utils:Timespan" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/ecommerce/Transaction" mod="1310098518000" signatureChecksum="3010729505" >
+        <def id="com.google.analytics.ecommerce:Transaction" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.ecommerce:Item" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.ecommerce:Item" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/PerformanceProfiler" mod="1341375919858" signatureChecksum="3073734425" >
+        <def id="com.sociodox.theminer.window:PerformanceProfiler" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SampleAnalyzer" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/Overdraw" mod="1341154821244" signatureChecksum="4234754211" >
+        <def id="com.sociodox.theminer.window:Overdraw" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Panel" mod="1310098518000" signatureChecksum="881052708" >
+        <def id="com.google.analytics.debug:Panel" /> 
+        <dep id="com.google.analytics.debug:Align" type="e" /> 
+        <dep id="com.google.analytics.debug:Label" type="e" /> 
+        <dep id="com.google.analytics.debug:Style" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="com.google.analytics.debug:Background" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="com.google.analytics.debug:Align" type="s" /> 
+        <dep id="com.google.analytics.debug:Label" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.debug:UISprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/core/KeyBinder" mod="1339957674894" signatureChecksum="4025255820" >
+        <def id="com.junkbyte.console.core:KeyBinder" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:ConsoleCore" type="i" /> 
+      </script>
+      <script name="com/google/analytics/v4/Tracker" mod="1310098520000" signatureChecksum="2843147507" >
+        <def id="com.google.analytics.v4:Tracker" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.net:navigateToURL" type="e" /> 
+        <dep id="com.google.analytics.data:X10" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.google.analytics.core:DocumentInfo" type="e" /> 
+        <dep id="com.google.analytics.core:Utils" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="e" /> 
+        <dep id="com.google.analytics.utils:Variables" type="e" /> 
+        <dep id="com.google.analytics.utils:URL" type="e" /> 
+        <dep id="com.google.analytics.core:BrowserInfo" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="e" /> 
+        <dep id="com.google.analytics.core:EventInfo" type="e" /> 
+        <dep id="com.google.analytics.core:DomainNameMode" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="com.google.analytics.campaign:CampaignManager" type="e" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="com.google.analytics.core:DocumentInfo" type="s" /> 
+        <dep id="com.google.analytics.data:X10" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="com.google.analytics.core:EventTracker" type="s" /> 
+        <dep id="com.google.analytics.utils:Variables" type="s" /> 
+        <dep id="com.google.analytics.v4:Configuration" type="s" /> 
+        <dep id="com.google.analytics.core:BrowserInfo" type="s" /> 
+        <dep id="com.google.analytics.utils:URL" type="s" /> 
+        <dep id="com.google.analytics.external:AdSenseGlobals" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:Buffer" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignInfo" type="s" /> 
+        <dep id="com.google.analytics.core:EventInfo" type="s" /> 
+        <dep id="com.google.analytics.ecommerce:Transaction" type="s" /> 
+        <dep id="com.google.analytics.utils:Environment" type="s" /> 
+        <dep id="com.google.analytics.core:Ecommerce" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignManager" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.v4:GoogleAnalyticsAPI" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/Configuration" mod="1341186328988" signatureChecksum="3300595459" >
+        <def id="com.sociodox.theminer.window:Configuration" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.display:LoaderInfo" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.net:SharedObject" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flash.net:navigateToURL" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="flash.net:FileFilter" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:SharedObject" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.net:FileFilter" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/Ecommerce" mod="1310098520000" signatureChecksum="1679726174" >
+        <def id="com.google.analytics.core:Ecommerce" /> 
+        <dep id="com.google.analytics.ecommerce:Transaction" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.ecommerce:Transaction" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/InternalEventsStatsHolder" mod="1331006329311" signatureChecksum="1428024037" >
+        <def id="com.sociodox.theminer.data:InternalEventsStatsHolder" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="e" /> 
+        <dep id="com.sociodox.theminer.data:InternalEventEntry" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/Analytics" mod="1341182293337" signatureChecksum="2068429888" >
+        <def id="com.sociodox.theminer.manager:Analytics" /> 
+        <dep id="com.google.analytics.core:Domain" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="com.google.analytics:GATracker" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.google.analytics.core:DomainNameMode" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="com.google.analytics:AnalyticsTracker" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerData" mod="1309286634000" signatureChecksum="3765790442" >
+        <def id="com.demonsters.debugger:MonsterDebuggerData" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebugger" mod="1309286634000" signatureChecksum="4257742600" >
+        <def id="com.demonsters.debugger:MonsterDebugger" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConnection" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerUtils" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerCore" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerPlugin" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/v4/Configuration" mod="1310098520000" signatureChecksum="1688290090" >
+        <def id="com.google.analytics.v4:Configuration" /> 
+        <dep id="com.google.analytics.core:Domain" type="e" /> 
+        <dep id="com.google.analytics.utils:Timespan" type="e" /> 
+        <dep id="com.google.analytics.core:Organic" type="e" /> 
+        <dep id="com.google.analytics.campaign:CampaignKey" type="e" /> 
+        <dep id="com.google.analytics.core:DomainNameMode" type="e" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.google.analytics.core:Domain" type="s" /> 
+        <dep id="com.google.analytics.core:Organic" type="s" /> 
+        <dep id="com.google.analytics.campaign:CampaignKey" type="s" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.core:ServerOperationMode" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/URL" mod="1310098518000" signatureChecksum="955601214" >
+        <def id="com.google.analytics.utils:URL" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="e" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/GraphingPanel" mod="1339957674982" signatureChecksum="3654378175" >
+        <def id="com.junkbyte.console.view:GraphingPanel" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphInterest" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="com.junkbyte.console.view:MainPanel" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="com.junkbyte.console.vos:GraphGroup" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="i" /> 
+      </script>
+      <script name="com/demonsters/debugger/MonsterDebuggerConnection" mod="1309286758000" signatureChecksum="3332276257" >
+        <def id="com.demonsters.debugger:MonsterDebuggerConnection" /> 
+        <dep id="com.demonsters.debugger:MonsterDebuggerConnectionDefault" type="e" /> 
+        <dep id="com.demonsters.debugger:IMonsterDebuggerConnection" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/campaign/CampaignKey" mod="1310098518000" signatureChecksum="2641255507" >
+        <def id="com.google.analytics.campaign:CampaignKey" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/manager/OptionInterface" mod="1331006274909" signatureChecksum="2381848608" >
+        <def id="com.sociodox.theminer.manager:OptionInterface" /> 
+        <dep id="com.sociodox.theminer.manager:Options" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Options" type="s" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/UserEvent" mod="1341182293314" signatureChecksum="3405356209" >
+        <def id="com.sociodox.theminer.window:UserEvent" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Commands" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="com.sociodox.theminer.ui:ToolTip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.sampler:pauseSampling" type="e" /> 
+        <dep id="flash.sampler:startSampling" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.sociodox.theminer.window:Configuration" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="com.sociodox.theminer.ui.button:MenuButton" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="com.sociodox.theminer.manager:UserEventManager" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="com.sociodox.theminer.data:UserEventEntry" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/ConsoleConfig" mod="1339957675146" signatureChecksum="1393005961" >
+        <def id="com.junkbyte.console:ConsoleConfig" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.junkbyte.console:Console" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleLevel" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="com.junkbyte.console:ConsoleStyle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/core/ServerOperationMode" mod="1310098520000" signatureChecksum="607480784" >
+        <def id="com.google.analytics.core:ServerOperationMode" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/data/InternalEventEntry" mod="1331006333261" signatureChecksum="3968250195" >
+        <def id="com.sociodox.theminer.data:InternalEventEntry" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Align" mod="1310098518000" signatureChecksum="3499400360" >
+        <def id="com.google.analytics.debug:Align" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/Version" mod="1310098518000" signatureChecksum="242984905" >
+        <def id="com.google.analytics.utils:Version" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/TheMinerActionEnum" mod="1341154855280" signatureChecksum="2952897209" >
+        <def id="com.sociodox.theminer:TheMinerActionEnum" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/view/RollerPanel" mod="1339957674989" signatureChecksum="374201475" >
+        <def id="com.junkbyte.console.view:RollerPanel" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.junkbyte.console:KeyBind" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/commandprompt/CommandChoice" mod="1339957674467" signatureChecksum="4136850045" >
+        <def id="com.junkbyte.console.addons.commandprompt:CommandChoice" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/LogsRemote" mod="1339957675170" signatureChecksum="1358651181" >
+        <def id="com.junkbyte.console.remote:LogsRemote" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="e" /> 
+        <dep id="com.junkbyte.console.vos:Log" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:Logs" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/addons/displaymap/DisplayMapPanel" mod="1339957674501" signatureChecksum="50790285" >
+        <def id="com.junkbyte.console.addons.displaymap:DisplayMapPanel" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="com.junkbyte.console.core:LogReferences" type="e" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.view:ConsolePanel" type="i" /> 
+      </script>
+      <script name="com/google/analytics/debug/Style" mod="1310098518000" signatureChecksum="3627883077" >
+        <def id="com.google.analytics.debug:Style" /> 
+        <dep id="com.google.analytics.debug:_Style" type="e" /> 
+        <dep id="com.google.analytics.debug:_Style" type="s" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/google/analytics/debug/DebugConfiguration" mod="1310575096000" signatureChecksum="3357502827" >
+        <def id="com.google.analytics.debug:DebugConfiguration" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.google.analytics.core:GIFRequest" type="s" /> 
+        <dep id="com.google.analytics.debug:ILayout" type="s" /> 
+        <dep id="com.google.analytics.debug:VisualDebugMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/junkbyte/console/remote/CommandLineRemote" mod="1339957675207" signatureChecksum="1329371662" >
+        <def id="com.junkbyte.console.remote:CommandLineRemote" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.junkbyte.console:Console" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.junkbyte.console.core:CommandLine" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/ConsoleContainer" mod="1341154780423" signatureChecksum="2802496988" >
+        <def id="com.sociodox.theminer.window:ConsoleContainer" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="com.junkbyte.console:Cc" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/sociodox/theminer/window/InstancesLifeCycle" mod="1341154796034" signatureChecksum="1818705579" >
+        <def id="com.sociodox.theminer.window:InstancesLifeCycle" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Localization" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:SkinManager" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Stage2D" type="e" /> 
+        <dep id="com.sociodox.theminer.manager:Analytics" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.sociodox.theminer.window:IWindow" type="i" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/google/analytics/data/GASO" mod="1310098520000" signatureChecksum="3406895561" >
+        <def id="com.google.analytics.data:GASO" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/google/analytics/external/AdSenseGlobals" mod="1310098518000" signatureChecksum="1093569765" >
+        <def id="com.google.analytics.external:AdSenseGlobals" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.google.analytics.external:JavascriptProxy" type="i" /> 
+      </script>
+      <script name="com/google/analytics/utils/Environment" mod="1310098518000" signatureChecksum="1528136506" >
+        <def id="com.google.analytics.utils:Environment" /> 
+        <dep id="flash.system:System" type="e" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.google.analytics.utils:Version" type="e" /> 
+        <dep id="com.google.analytics.utils:UserAgent" type="e" /> 
+        <dep id="com.google.analytics.debug:DebugConfiguration" type="s" /> 
+        <dep id="com.google.analytics.utils:Protocols" type="s" /> 
+        <dep id="com.google.analytics.utils:Version" type="s" /> 
+        <dep id="com.google.analytics.external:HTMLDOM" type="s" /> 
+        <dep id="com.google.analytics.utils:UserAgent" type="s" /> 
+        <dep id="com.google.analytics.core:ga_internal" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_783ea8964698c1504f302f5ed58281aafcd286977d26c7ecad45f975299c750b_flash_display_Sprite" mod="1341379700359" signatureChecksum="4038031819" >
+        <def id="_783ea8964698c1504f302f5ed58281aafcd286977d26c7ecad45f975299c750b_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <keep-as3-metadata>
+        <metadata name="ExcludeClass" />
+        <metadata name="Event" />
+        <metadata name="Exclude" />
+        <metadata name="PercentProxy" />
+        <metadata name="Inspectable" />
+      </keep-as3-metadata>
+      <digests>
+        <digest type="SHA-256" signed="false" value="43232445b836285b0f6d0c7d834e6793d317ce20227354d62ad018424ab60565"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

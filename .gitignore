@@ -1,0 +1,7 @@
+Export/
+.DS_Store
+test.swf
+*.sublime-*
+*.swp
+*.iml
+*.idea
